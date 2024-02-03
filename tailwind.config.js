@@ -53,7 +53,9 @@ module.exports = {
           foreground: "hsl(var(--card-foreground))",
         },
         'whyP': "#2062A9",
-        'whyS': "#ECFEFF"
+        'whyS': "#ECFEFF",
+        'stars': "#90BDE9",
+        'whyT': "#1B4F89"
       },
       borderRadius: {
         lg: "var(--radius)",

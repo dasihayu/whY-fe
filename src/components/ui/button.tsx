@@ -15,12 +15,13 @@ const buttonVariants = cva(
         outline:
           "border border-whyP text-whyP text-xl font-semibold rounded rounded-3xl",
         secondary:
-          "bg-secondary text-secondary-foreground hover:bg-secondary/80",
+          "bg-white text-whyP text-xl font-semibold rounded rounded-3xl",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
       },
       size: {
         default: "h-10 w-[200px] py-2",
+        secondary: "h-10 w-[200px] px-20 py-3",
         sm: "h-9 rounded-md px-3",
         lg: "h-11 rounded-md px-8",
         icon: "h-10 w-10",
